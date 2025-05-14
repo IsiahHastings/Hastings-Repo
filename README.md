@@ -32,7 +32,7 @@ Jiajiri-MVP/
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/IsiahHastings/jiajiri-mvp.git
+   git clone https://github.com/IsiahHastings/Hastings-Repo.git
    ```
 2. Open `index.html` in your browser to view the homepage.
 
