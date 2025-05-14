@@ -1,0 +1,131 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #fffdfd; */
+  color: #333;
+  background-image: url('images/Back-ground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+
+header {
+  background: linear-gradient(90deg, #019174, #03a541);
+  /* background: linear-gradient(90deg, #282929, #000a04); */
+  color: white;
+  padding-bottom: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+p{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 1.1em;
+    /* color: #2d3436; */
+    text-align: center;
+    margin: 0 auto;
+    /* font-family: sans-serif; */
+    line-height: 1.6em;
+
+}
+.about{
+    text-align: justify;
+}
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+.hero button {
+  background-color: #00ce22;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+h2 {
+  text-align: center;
+  color: #2d3436;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.feature-box {
+  background-color: #ffffff;
+  border: 1px solid #dfe6e9;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.email{
+    text-decoration: none;
+    color: #019174;
+    
+}
+footer {
+  background: linear-gradient(90deg, #4e4e4e, #000e05);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
